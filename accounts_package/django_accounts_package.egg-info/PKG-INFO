@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: django-accounts-package
-Version: 0.6
+Version: 0.7
 Summary: A Django app to conduct web-based authentication using Microsoft and Google authentaction tokens.
 Home-page: https://github.com/MuhammadAlgshy/django-accounts-package.git
 Author: Muhammad Algshy, Mohammad Yusuf

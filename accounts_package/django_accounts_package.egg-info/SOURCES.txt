@@ -1,6 +1,5 @@
 LICENSE
 MANIFEST.in
-README.md
 README.rst
 setup.cfg
 setup.py
@@ -18,8 +17,6 @@ accounts/management/commands/init_authprovider.py
 accounts/management/commands/init_pkg.py
 accounts/management/commands/init_users.py
 accounts/management/commands/__pycache__/init_users.cpython-39.pyc
-accounts/migrations/0001_initial.py
-accounts/migrations/__init__.py
 django_accounts_package.egg-info/PKG-INFO
 django_accounts_package.egg-info/SOURCES.txt
 django_accounts_package.egg-info/dependency_links.txt

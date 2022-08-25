@@ -1,3 +1,5 @@
 .env
 db.sqlite3
 readme.txt
+accounts_package/django_accounts_package.egg-info
+accounts_package/dist
