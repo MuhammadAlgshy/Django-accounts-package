@@ -1,0 +1,15 @@
+#Django 
+SECRET_KEY="key"
+
+#Authentication Providers
+
+GOOGLE_CLIENT_ID= "your google client id"
+GOOGLE_SECRET= "google secret"
+
+MS_CLIENT_ID= "your micrsoft client id"
+MS_SECRET= "your secret"
+
+# Super User Information
+SUPER_USERNAME="email"
+SUPER_PASSWORD="password"
+
