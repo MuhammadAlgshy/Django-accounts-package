@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: django-accounts-package
-Version: 0.5
+Version: 0.6
 Summary: A Django app to conduct web-based authentication using Microsoft and Google authentaction tokens.
 Home-page: https://github.com/MuhammadAlgshy/django-accounts-package.git
 Author: Muhammad Algshy, Mohammad Yusuf
@@ -127,7 +127,6 @@ Settings
 
    ]
    AUTH_USER_MODEL = "accounts.User" # User Model to be used in the admin site
-   pypi-AgENdGVzdC5weXBpLm9yZwIkNWI4YTIxMTYtOGIyMi00OGY0LTkwZTYtNDQ0ZWEyNmUxMWJhAAIleyJwZXJtaXNzaW9ucyI6ICJ1c2VyIiwgInZlcnNpb24iOiAxfQAABiAQWafdMBRKKmn9ZcEsNV3kJj_Ftm58_BYKiTRYaCm3Lw
    SITE_ID = 1 # Set your site ID
    ACCOUNT_USER_MODEL_USERNAME_FIELD = None 
    ACCOUNT_EMAIL_REQUIRED = True # Use email instead of username
