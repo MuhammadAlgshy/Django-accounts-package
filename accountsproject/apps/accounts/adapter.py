@@ -32,8 +32,10 @@ class MyCustomSocialAdapter(DefaultSocialAccountAdapter):
     
 
         def pre_social_login(self, request, sociallogin):
-
-            social_email=sociallogin.email_addresses[0].email
+            try:
+                social_email=sociallogin.email_addresses[0].email
+            except:
+                social_email=sociallogin.email_addresses[0].preferred_username
             # social account already exists, so this is just a login
             if sociallogin.is_existing:
                 existing_user = User.objects.get(email__iexact=social_email)
