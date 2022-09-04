@@ -16,7 +16,7 @@ Table of Contents
 About 
 =====
 
-The package meant will allow you use the access tokens generateted by
+The package will allow you use the access tokens generateted by
 third-party authentication provider (Google, Microsoft) to
 authentication with Djnago Applicaiton with viarty of option is the
 settings to customize.
@@ -119,7 +119,7 @@ Settings
    USER_FIRST=True # You have to create the user first before using Google and MS authentication
    USER_NOPASSWORD=True # You can Create User without password.
    USER_DELETE=False # Allow User Deletion in admin panel
-   
+   # REST FRMEWORK Settings
    REST_FRAMEWORK = {
     "NON_FIELD_ERRORS_KEY": "error",
     "DEFAULT_RENDERER_CLASSES": ("rest_framework.renderers.JSONRenderer",),
@@ -134,6 +134,10 @@ Settings
     # "PAGE_SIZE": 50,
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
    }
+
+ # JWT Settings 
+   from datetime import timedelta
+   SIMPLE_JWT = { 'ACCESS_TOKEN_LIFETIME': timedelta(minutes=30), }
 
 Run 
 ===

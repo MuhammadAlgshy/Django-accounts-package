@@ -13,7 +13,7 @@
 
 # About <a name = "about"></a>
 
-The project meant to help the use to use the access tokens generateted by third-party authentication provider (Google, Microsoft) to authentication with Djnago Applicaiton with viarty of option is the settings to customize.
+The project helps developers to use the access tokens generateted by third-party authentication provider (Google, Microsoft) to authentication with Djnago Applicaiton with viarty of option is the settings to customize.
 
 # Getting Started <a name = "getting_started"></a>
 
