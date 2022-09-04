@@ -1,10 +1,12 @@
 from django.utils.translation import gettext_lazy as _
 from allauth.account.adapter import DefaultAccountAdapter
 from allauth.socialaccount.adapter import DefaultSocialAccountAdapter
-from .models import User
 from allauth.socialaccount.models import EmailAddress
 from django.core.exceptions import ValidationError
 from django.conf import settings
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 
 class MyCustomAdapter(DefaultAccountAdapter):
