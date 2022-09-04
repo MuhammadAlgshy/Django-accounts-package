@@ -87,7 +87,7 @@ class UserAdmin(BaseUserAdmin):
     exclude = ('password',)
     
     def has_delete_permission(self, request, obj=None) :
-        return settings.USER_DELETE
+        return settings.USER_USER_DELETE
         
   
     @admin.action(description='Activate User')
